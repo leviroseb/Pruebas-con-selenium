@@ -14,3 +14,7 @@ El script desarrollado trata básicamente de crear un objeto de tipo WebDriver, 
 Por algún motivo que aún desconozco, Junit marca error al momento de ejecutar la prueba, es decir, que la prueba funcional es incorrecta a pesar de que aparentemente todo está correcto en el script. Al momento de ejecutar la prueba el navegador se abre por solo unos segundos y se cierra inmediatamente, en el siguiente gif podemos apreciarlo mejor:
 
 ![img](img/selenium4.gif)
+
+Evidentemente Junit marca la prueba como un error, como se dijo anteriormente, aún no encuentro el motivo del problema, investigando el internet, podría que el problema se encuentre en una falla de compatibilidad de chromedriver y la versión de mi navegador, se seguirá trabajando para poder corregir el error.
+
+![img](img/selenium5.png)
