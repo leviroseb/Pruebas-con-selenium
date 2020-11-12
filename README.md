@@ -10,3 +10,7 @@ Posteriormente se procedió a implementar un script pequeño para probar el uso 
 El script desarrollado trata básicamente de crear un objeto de tipo WebDriver, el cual nos va a permitir abrir el navegador google chrome de nuestro equipo, una vez allí ingresa a la url: www:google.com , posteriormente se realiza una búsqueda determinada en el navegador, el cual se realiza de forma automática, y una vez terminada la búsqueda se porcede a cerrar el navegador, en la imagen inferior podemos apreciar el script creado:
 
 ![img](img/selenium3.png)
+
+Por algún motivo que aún desconozco, Junit marca error al momento de ejecutar la prueba, es decir, que la prueba funcional es incorrecta a pesar de que aparentemente todo está correcto en el script. Al momento de ejecutar la prueba el navegador se abre por solo unos segundos y se cierra inmediatamente, en el siguiente gif podemos apreciarlo mejor:
+
+![img](img/selenium4.gif)
